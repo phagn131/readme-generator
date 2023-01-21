@@ -1,0 +1,16 @@
+{
+    "name": "00-ins_filewriter",
+    "description": "- Write a commandline program to write HTML boxes and set a default size to these boxes.",
+    "version": "1.0.0",
+    "main": "generator.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Paul Hagan",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    }
+  }
+  
