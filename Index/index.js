@@ -2,15 +2,16 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+//const { title } = require('process');
 console.log('Start');
-    // TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
         name: 'title',
         message: 'What is the Your Title?',
-        validate: userInput => {
-            if (userInput) {
+        validate: title => {
+            if (title) {
                 return true;
             } else {
                 console.log('Please enter a Title to continue.');
@@ -23,8 +24,8 @@ const questions = [
         type: 'input',
         name: 'Description',
         message: 'Please describe your project?',
-        validate: userInput => {
-            if (userInput) {
+        validate: description => {
+            if (description) {
                 return true;
             } else {
                 console.log('Please enter a Description.');
@@ -102,7 +103,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your gitub link for README generator feedback?',
+        message: 'Please enter your github link for README generator feedback?',
         validate: userInput => {
             if (userInput) {
                 return true;

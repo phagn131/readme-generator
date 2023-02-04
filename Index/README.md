@@ -1,12 +1,12 @@
-# Readme
+# fdsafda
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [Contributors](#contributors)
+- [Tests](#tests)
 ## License: 
-[![license](https://img.shields.io/badge/license-undefined-blue.svg)](https://shields.io/category/license ]
+[![license](https://img.shields.io/badge/license-MIT,GPL,Apache,Apache 2,-blue.svg)](https://shields.io/category/license) ]
 - [Contact Information](#contact information)
 
 ## Description:
@@ -15,12 +15,10 @@ undefined
 undefined
 ## Usage:
 undefined
-## Credits:
-undefined
 ## Contributors:
 undefined
 ## License:
-undefined
+MIT,GPL,Apache,Apache 2,
 ## Contact Information:
-- Github: [undefined](https://github.com/undefined)
-- Email: [undefined](mailto:user@example.com)
+- Github: [fda](https://github.com/fda)
+- Email: [fds](user@email.com)
