@@ -22,7 +22,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please describe your project?',
         validate: description => {
             if (description) {
@@ -36,7 +36,7 @@ const questions = [
     
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'How will your project be installed?',
         validate: userInput => {
             if (userInput) {
@@ -49,7 +49,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'How will your project be used?',
         validate: userInput => {
             if (userInput) {
@@ -62,7 +62,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'Contributors',
+        name: 'contributors',
         message: 'Are there other contributors to your project?',
         validate: userInput => {
             if (userInput) {
