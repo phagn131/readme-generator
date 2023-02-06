@@ -21,5 +21,5 @@ no
 ## License:
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Contact Information:
-- Github: [phagan13@github.com](https://github.com/phagan13@github.com)
+- Github: [phagn13@github.com](https://github.com/phagn13@github.com)
 - Email: [chloetechnologies@gmail.com](user@email.com)
